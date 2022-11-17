@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.otisapp.HelloController">
+   <children>
+      <BorderPane layoutX="63.0" layoutY="57.0" prefHeight="507.0" prefWidth="774.0">
+         <top>
+            <Label text="Label" BorderPane.alignment="CENTER" />
+         </top>
+         <center>
+            <GridPane fx:id="gridPane" gridLinesVisible="true" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="70.0" prefWidth="70.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="70.0" prefWidth="70.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="70.0" prefWidth="70.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="70.0" prefWidth="70.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="70.0" prefWidth="70.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="70.0" prefWidth="70.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="70.0" prefWidth="70.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="70.0" prefWidth="70.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="70.0" prefWidth="70.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="70.0" prefHeight="70.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="70.0" prefHeight="70.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="70.0" prefHeight="70.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="70.0" prefHeight="70.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="70.0" prefHeight="70.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="70.0" prefHeight="70.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="70.0" prefHeight="70.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Длина провода" wrapText="true" GridPane.columnIndex="2" />
+                  <Label text="Время отклика" wrapText="true" GridPane.columnIndex="1" />
+                  <Label text="Вес" wrapText="true" GridPane.columnIndex="3" />
+                  <Label text="Сила нажатия" wrapText="true" GridPane.columnIndex="4" />
+                  <Label text="Стоимость" wrapText="true" GridPane.columnIndex="5" />
+                  <Label text="Нажатия до обнаружения отказа" wrapText="true" GridPane.columnIndex="6" />
+                  <Label text="a_i" GridPane.columnIndex="7" />
+                  <Label contentDisplay="CENTER" style="-fx-text-alignment:center" text="b_i" GridPane.columnIndex="8" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.rowIndex="1" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.rowIndex="2" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.rowIndex="3" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.rowIndex="4" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.rowIndex="5" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.rowIndex="6" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                  <TextArea prefHeight="70.0" prefWidth="70.0" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+               </children>
+            </GridPane>
+         </center>
+         <bottom>
+            <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <items>
+                <Button mnemonicParsing="false" onAction="#onAdd" text="Add" />
+              </items>
+            </ToolBar>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>
